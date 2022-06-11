@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 html {
-  @apply font-inter bg-base text-neutral-10;
+  @apply scroll-smooth bg-base font-inter text-neutral-10;
+  scroll-padding-top: 10px;
 }

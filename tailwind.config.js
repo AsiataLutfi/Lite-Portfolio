@@ -20,8 +20,18 @@ module.exports = {
       fontFamily: {
         inter: '"Inter", sans-serif',
       },
+      fontSize: {
+        sm: ["12px", { lineHeight: "16px" }],
+        md: ["14px", { lineHeight: "20px", letterSpacing: "-0.006em" }],
+        lg: ["16px", { lineHeight: "24px", letterSpacing: "-0.011em" }],
+        xl: ["20px", { lineHeight: "28px", letterSpacing: "-0.017em" }],
+        "2xl": ["28px", { lineHeight: "36px", letterSpacing: "-0.021em" }],
+        "3xl": ["36px", { lineHeight: "44px", letterSpacing: "-0.022em" }],
+      },
       boxShadow: {
-        card: "0 10px 50px -20px rgba(0, 0, 0, 0.1)",
+        shadow: "0 1px 2px 0 rgba(0, 0, 0, 1.2)",
+        md: "0 10px 50px -20px rgba(0, 0, 0, 0.1)",
+        inner: "1px 2px 2px 0 rgba(0, 0, 0, 1.2)",
       },
     },
   },

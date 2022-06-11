@@ -12,7 +12,7 @@ import YoutubeIcon from "../../assets/youtube.svg";
 
 const Header = () => {
   return (
-    <header className="mb-16">
+    <header className="mb-16" id="header">
       <Container>
         <Profile />
         <div className="flex justify-center">

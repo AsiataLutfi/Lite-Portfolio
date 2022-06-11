@@ -8,9 +8,9 @@ const AccountCard = (props) => {
 
   return (
     <a href={linkTo}>
-      <Card className="mb-4 items-center shadow-card">
+      <Card className="items-center">
         <img src={props.image} alt={props.name} className="mr-6 h-9 w-9" />
-        <p className="text-xl font-medium leading-7">{props.name}</p>
+        <p className="text-xl font-medium">{props.name}</p>
       </Card>
     </a>
   );
