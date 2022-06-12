@@ -4,13 +4,22 @@ import React from "react";
 import Card from "../UI/Card";
 
 const AccountCard = (props) => {
-  const linkTo = props.disabled ? "#" : props.href;
+  const linkTo = props.isDisabled ? "#" : props.href;
+
+  const username = props.isDisabled ? "-" : props.username;
 
   return (
     <a href={linkTo}>
-      <Card className="items-center">
-        <img src={props.image} alt={props.name} className="mr-6 h-9 w-9" />
-        <p className="text-xl font-medium">{props.name}</p>
+      <Card className="items-center lg:flex-col lg:items-start">
+        <img
+          src={props.image}
+          alt={props.name}
+          className="mr-6 h-9 w-9 lg:mb-[74px] lg:h-[50px] lg:w-[50px]"
+        />
+        <h4 className="text-xl font-medium lg:mb-2.5 lg:text-2xl">
+          {props.name}
+        </h4>
+        <h6 className="hidden text-lg lg:block">{username}</h6>
       </Card>
     </a>
   );

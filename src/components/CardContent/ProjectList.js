@@ -3,20 +3,20 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectList = (props) => {
   return (
-    <ul className="mb-9" id="project_list">
-      {props.datas.map((data) => {
-        return (
-          <li key={data.id} className="mb-4">
-            <ProjectCard
-              link={data.link}
-              title={data.title}
-              desc={data.description}
-              tech={data.technology}
-            />
-          </li>
-        );
-      })}
-    </ul>
+    <div
+      className="mb-9 grid grid-cols-1 gap-x-4 gap-y-0 lg:grid-cols-3"
+      id="project_list"
+    >
+      {props.datas.map((data) => (
+        <ProjectCard
+          key={data.id}
+          link={data.link}
+          title={data.title}
+          desc={data.description}
+          tech={data.technology}
+        />
+      ))}
+    </div>
   );
 };
 

@@ -14,25 +14,27 @@ const Header = () => {
   return (
     <header className="mb-16" id="header">
       <Container>
-        <Profile />
-        <div className="flex justify-center">
-          <SocialButton
-            href="https://www.instagram.com/lutfi.khoirudin/"
-            name="instagram"
-            image={InstagramIcon}
-          />
-          <SocialButton
-            href="https://www.tiktok.com/@lutfi.khoirudin"
-            name="tiktok"
-            image={TiktokIcon}
-            disabled
-          />
-          <SocialButton
-            href="https://www.youtube.com/channel/UCbFmL3dkWyv2ER6bEzL-Nxg"
-            name="youtube"
-            image={YoutubeIcon}
-            disabled
-          />
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
+          <Profile />
+          <div className="lg:justify-right flex justify-center">
+            <SocialButton
+              href="https://www.instagram.com/lutfi.khoirudin/"
+              name="instagram"
+              image={InstagramIcon}
+            />
+            <SocialButton
+              href="https://www.tiktok.com/@lutfi.khoirudin"
+              name="tiktok"
+              image={TiktokIcon}
+              disabled
+            />
+            <SocialButton
+              href="https://www.youtube.com/channel/UCbFmL3dkWyv2ER6bEzL-Nxg"
+              name="youtube"
+              image={YoutubeIcon}
+              disabled
+            />
+          </div>
         </div>
       </Container>
     </header>

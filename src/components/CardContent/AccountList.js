@@ -3,20 +3,18 @@ import AccountCard from "./AccountCard";
 
 const AccountList = (props) => {
   return (
-    <ul className="mb-9">
-      {props.datas.map((data) => {
-        return (
-          <li key={data.id} className="mb-4">
-            <AccountCard
-              href={data.link}
-              image={data.image}
-              name={data.name}
-              isDisabled={data.disabled}
-            />
-          </li>
-        );
-      })}
-    </ul>
+    <div className="mb-9 grid grid-cols-1 gap-x-4 gap-y-0 lg:grid-cols-3">
+      {props.datas.map((data) => (
+        <AccountCard
+          key={data.id}
+          href={data.link}
+          image={data.image}
+          name={data.name}
+          username={data.username}
+          isDisabled={data.disabled}
+        />
+      ))}
+    </div>
   );
 };
 

@@ -6,7 +6,7 @@ import ProfileDetails from "./ProfileDetails";
 
 const Profile = () => {
   return (
-    <div className="my-5 flex flex-col items-center ">
+    <div className="my-5 flex flex-col items-center lg:flex-row lg:justify-center">
       <PhotoProfile />
       <ProfileDetails />
     </div>

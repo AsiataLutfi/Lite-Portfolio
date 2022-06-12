@@ -9,9 +9,16 @@ const ProjectCard = (props) => {
   return (
     <a href={props.link}>
       <Card className="flex-col">
-        <h4 className="mb-[10px] text-xl font-medium">{props.title}</h4>
-        <h6 className="mb-20 text-lg">{props.desc}</h6>
-        <p className="text-sm">{techList}</p>
+        <h4
+          className="mb-2.5 text-xl font-medium line-clamp-1 lg:text-2xl"
+          title={props.title}
+        >
+          {props.title}
+        </h4>
+        <h6 className="mb-20 text-lg line-clamp-2" title={props.desc}>
+          {props.desc}
+        </h6>
+        <p className="text-sm lg:text-md">{techList}</p>
       </Card>
     </a>
   );

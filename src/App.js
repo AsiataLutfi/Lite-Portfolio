@@ -21,12 +21,14 @@ const DUMMY_CONTACT = [
     image: GoogleImage,
     name: "Gmail",
     link: "mailto:asiatakh25@gmail.com",
+    username: "asiatakh25@gmail.com",
   },
   {
     id: "CVvHMDqNfyXAY",
     image: TelegramImage,
     name: "Telegram",
     link: "https://t.me/lutfi_khoir",
+    username: "t.me/lutfi_khoir",
   },
 ];
 
@@ -37,6 +39,7 @@ const DUMMY_ACCOUNT = [
     name: "LinkedIn",
     link: "",
     disabled: true,
+    username: "",
   },
   {
     id: "QtiLmrLTAddgj",
@@ -44,6 +47,7 @@ const DUMMY_ACCOUNT = [
     name: "Dribbble",
     link: "https://dribbble.com/lutfikhoir",
     disabled: true,
+    username: "",
   },
   {
     id: "jeJRwJYzQheqIlGqHEKr",
@@ -51,12 +55,14 @@ const DUMMY_ACCOUNT = [
     name: "Behance",
     link: "https://www.behance.net/lutfikhoir/",
     disabled: true,
+    username: "",
   },
   {
     id: "CwyzXKMgJcvFjnRP",
     image: GithubImage,
     name: "GitHub",
     link: "https://github.com/AsiataLutfi/",
+    username: "github.com/AsiataLutfi",
   },
 ];
 
