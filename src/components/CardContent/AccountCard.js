@@ -5,11 +5,19 @@ import Card from "../UI/Card";
 
 const AccountCard = (props) => {
   const linkTo = props.isDisabled ? "#" : props.href;
-
   const username = props.isDisabled ? "-" : props.username;
 
   return (
-    <a href={linkTo}>
+    <a
+      href={linkTo}
+      target="_blank"
+      rel="noreferrer noopener"
+      className={`${
+        props.isDisabled
+          ? "pointer-events-none opacity-50 hover:cursor-not-allowed"
+          : ""
+      }`}
+    >
       <Card className="items-center lg:flex-col lg:items-start">
         <img
           src={props.image}
