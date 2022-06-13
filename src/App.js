@@ -73,21 +73,50 @@ const DUMMY_PROJECTS = [
     description:
       "I made a “lite web” for my personal portfolio. It’s made really fast from 0",
     technology: ["React", "Tailwind", "UX", "UI"],
-    link: "wow.com",
+    link: "#",
   },
   {
     id: "naBsKjuKMtbGNjA",
     title: "Clone Instagram",
     description: "I'm trying to make an Instagram web interface or cloning",
     technology: ["React", "Bootstrap"],
-    link: "wow.com",
+    link: "https://lutfi-instagram.netlify.app/",
   },
   {
     id: "qMZIF",
     title: "Revamp Theater Website",
     description: "Make a better user flow which is suitable to user need",
     technology: ["UX Research", "UX Design"],
-    link: "wow.com",
+    link: "https://docs.google.com/document/d/1OxpqqLRci_8cnEufF56og1VkIg_SdmmXKgIRmlUaa1E/edit?usp=sharing",
+  },
+  {
+    id: "shDZyzKX",
+    title: "Bundana",
+    description: "A website for pregnancy monitoring. It's web appp base",
+    technology: ["UI Design", "HTML", "CSS", "Bootstrap"],
+    link: "https://bundana.netlify.app/",
+  },
+  {
+    id: "mhHtZxe",
+    title: "Hopes Indonesia",
+    description:
+      "Website for selling beauty products with a touch of animation in it",
+    technology: ["UX Design", "UI Design", "HTML", "CSS", "Bootstrap"],
+    link: "https://hopesindonesia.netlify.app/",
+  },
+  {
+    id: "lgBBkM",
+    title: "Ruang Enterpreneur",
+    description: "Educational websites like udemy",
+    technology: ["HTML", "CSS", "Bootstrap"],
+    link: "https://ruang-enterpreneur.netlify.app/",
+  },
+  {
+    id: "gsMmGkvGCyPdwhehBrAe",
+    title: "Suara Jatim Post",
+    description: "A news website",
+    technology: ["HTML", "CSS", "Bootstrap"],
+    link: "https://suarajatimpost.netlify.app/",
   },
 ];
 
