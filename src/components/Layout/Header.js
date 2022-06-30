@@ -32,7 +32,6 @@ const Header = () => {
               href="https://www.youtube.com/channel/UCbFmL3dkWyv2ER6bEzL-Nxg"
               name="youtube"
               image={YoutubeIcon}
-              disabled
             />
           </div>
         </div>

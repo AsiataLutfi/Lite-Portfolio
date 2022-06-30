@@ -7,7 +7,12 @@ const SocialButton = (props) => {
   const linkTo = props.disabled ? "#" : props.href;
 
   return (
-    <a href={linkTo} className={aClass}>
+    <a
+      href={linkTo}
+      target="_blank"
+      rel="noreferrer noopener"
+      className={aClass}
+    >
       <img src={props.image} alt={props.name} className="h-full w-full" />
     </a>
   );
