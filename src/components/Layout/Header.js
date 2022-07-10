@@ -26,7 +26,6 @@ const Header = () => {
               href="https://www.tiktok.com/@lutfi.khoirudin"
               name="tiktok"
               image={TiktokIcon}
-              disabled
             />
             <SocialButton
               href="https://www.youtube.com/channel/UCbFmL3dkWyv2ER6bEzL-Nxg"
