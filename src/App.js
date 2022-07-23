@@ -28,7 +28,7 @@ const DUMMY_CONTACT = [
     image: TelegramImage,
     name: "Telegram",
     link: "https://t.me/lutfi_khoir",
-    username: "t.me/lutfi_khoir",
+    username: "t.me/Asiata25",
   },
 ];
 
